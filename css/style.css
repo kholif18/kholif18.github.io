@@ -9599,7 +9599,7 @@ textarea.form-control {
       }
 
       .image-preview-link img {
-        width: 200px; /* Sesuaikan ukuran pratinjau sesuai kebutuhan */
+        width: 100%; /* Sesuaikan ukuran pratinjau sesuai kebutuhan */
         height: auto;
         cursor: pointer;
       }
