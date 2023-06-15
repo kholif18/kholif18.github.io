@@ -1024,18 +1024,19 @@ h1, h2, h3, h4, h5,
 
 
 // HIRE ME
-.ftco-hireme{
-	background: $primary;
-	z-index: -1;
-	h2{
-		color: $white;
-		font-size: 40px;
-		font-weight: 900;
-		span{
-			color: $primary;
-		}
-	}
-}
+// .ftco-hireme{
+// 	background: $primary;
+// 	z-index: -1;
+// 	h2{
+// 		color: $white;
+// 		font-size: 40px;
+// 		font-weight: 900;
+// 		span{
+// 			color: $primary;
+// 		}
+// 	}
+// }
+
 .margin-top{
 	@include media-breakpoint-up(lg){
 		margin-top: -70px;

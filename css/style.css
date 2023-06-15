@@ -8921,7 +8921,8 @@ h1, h2, h3, h4, h5,
 
 .ftco-hireme {
   background: #ffbd39;
-  z-index: -1; }
+  z-index: -1; 
+  padding: 7em 0;}
   .ftco-hireme h2 {
     color: #fff;
     font-size: 40px;
@@ -9591,6 +9592,46 @@ textarea.form-control {
     .categories li.active a, .sidelink li.active a {
       color: #000000;
       font-style: italic; }
+
+      .image-preview-link {
+        display: inline-block;
+        cursor: pointer;
+      }
+
+      .image-preview-link img {
+        width: 200px; /* Sesuaikan ukuran pratinjau sesuai kebutuhan */
+        height: auto;
+        cursor: pointer;
+      }
+      
+      .image-preview {
+        display: none; /* Sembunyikan pratinjau secara default */
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(65, 65, 65, 0.8);
+        z-index: 999;
+        text-align: center;
+      }
+      
+      .image-preview::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(8px); /* Ubah nilai blur sesuai keinginan */
+        z-index: -1;
+      }
+      .image-preview img {
+        max-width: 90%;
+        max-height: 90%;
+        margin: auto;
+        margin-top: 5vh; /* Sesuaikan margin sesuai kebutuhan */
+      }
 
 #ftco-loader {
   position: fixed;
