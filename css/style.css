@@ -9598,12 +9598,13 @@ textarea.form-control {
         justify-content: center;
         align-items: center;
         height: 150px;
-        width: 255px;
+        width: auto;
       }
 
       .partnership img {
-        width: 255px;
-        height: auto;
+        border-radius: 10px;
+        max-width: 100%;
+        max-height: 100%;
       }
 
 #ftco-loader {
