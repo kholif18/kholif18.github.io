@@ -9593,6 +9593,19 @@ textarea.form-control {
       color: #000000;
       font-style: italic; }
 
+      .partnership{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+        width: 255px;
+      }
+
+      .partnership img {
+        width: 255px;
+        height: auto;
+      }
+
 #ftco-loader {
   position: fixed;
   width: 96px;
