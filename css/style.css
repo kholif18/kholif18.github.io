@@ -9593,19 +9593,33 @@ textarea.form-control {
       color: #000000;
       font-style: italic; }
 
-      .partnership{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 150px;
-        width: auto;
-      }
+.edu-p{
+  padding-bottom: 2em;
+  border-bottom: solid 1px #ffbd39;
+}
 
-      .partnership img {
-        border-radius: 10px;
-        max-width: 100%;
-        max-height: 100%;
-      }
+.edu{
+  padding-bottom: 2em;
+  .date{
+		font-weight: 900;
+		font-size: 26px;
+		color: #ffbd39;
+	}
+}
+
+.partnership{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: auto;
+}
+
+.partnership img {
+  border-radius: 10px;
+  max-width: 100%;
+  max-height: 100%;
+}
 
 #ftco-loader {
   position: fixed;
